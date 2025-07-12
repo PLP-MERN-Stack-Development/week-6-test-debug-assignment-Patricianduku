@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fade-in animation for bug cards */
+@keyframes fade-in {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.5s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+html, body {
+    background-color: #b898eb;
+    min-height: 100vh;
+  }
